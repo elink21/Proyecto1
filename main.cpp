@@ -110,8 +110,8 @@ int main()
         optionNumber=0;
         cout<<"\t**** Sistema de conversion de tipos numericos ****\n";
         cout<<"\n-Inserte el tipo de conversion deseada-\n";
-        cout<<"\nHEX- Para convertir de binario o decimal a hexadecimal\n";
-        cout<<"BIN-Para convertir de hexadecimal o decimal a binario\n";
+        cout<<"\nHEX- Para convertir de decimal a hexadecimal y viceversa\n";
+        cout<<"BIN-Para convertir de decimal a binario y viceversa\n";
         cout<<"EXIT-Para terminar y salir del programa\n\n";
         cin>>optionWord;
 
@@ -119,7 +119,7 @@ int main()
         {
             while(optionNumber!=3)
             {
-                cout<<"\n\nInserte el numero de su tipo de conversion: \n";
+                cout<<"\nInserte el numero de su tipo de conversion: \n";
                 cout<<"1-Decimal a hexadecimal\n";
                 cout<<"2-Hexadecimal  a decimal\n";
                 cout<<"3-Regresar al menu principal\n\n";
@@ -151,7 +151,7 @@ int main()
         {
             while(optionNumber!=3)
             {
-                cout<<"\n\nInserte el numero de su tipo de conversion: \n";
+                cout<<"\nInserte el numero de su tipo de conversion: \n";
                 cout<<"1-Decimal a binario \n";
                 cout<<"2- Binario a decimal\n";
                 cout<<"3-Regresar al menu principal\n\n";
